@@ -1,0 +1,31 @@
+.box1{
+  background: lightcoral;
+}
+.box2{
+  background: lightblue;
+  }
+.box3{
+  background: lightgreen;
+}
+h1{
+  color: maroon;
+  font-family: sans-serif;
+  font-stretch: expanded;
+    text-align: center;
+}
+h3{
+  color: grey;
+  font-family: sans-serif;
+  font-stretch: condensed;
+  text-align: center;
+}
+
+img{
+  shape-outside: circle();
+}
+
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
